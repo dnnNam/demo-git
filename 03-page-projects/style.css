@@ -1,0 +1,303 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html{
+    font-size: 62.5%;
+}
+
+.body{
+    font-size: 1.6rem;
+}
+/*  */
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.super{
+    background-color: rgb(238, 235, 235);   
+}
+
+.title{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2rem 2rems */
+
+}
+
+.left-title{
+    display: flex;
+    /* border: 1px solid black; */
+    padding-left: 3rem;
+}
+
+.icon{
+    padding-right: 1rem;
+    font-size: 5rem;
+    color: orange;
+}
+
+.nicol-title{
+    font-size: 2rem ;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    padding-top: 1.5rem;
+}
+
+.editor-title{
+    padding-top: 2.3rem;
+    padding-left: 0.5rem;
+    font-family: "Roboto Condensed", sans-serif;
+}
+/* title bên phải */
+.right-title{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.8rem;  
+    padding-right: 2rem;  
+    /* border: 1px solid orange; */
+}
+
+.title-one{
+  padding-right: 1.5rem;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
+  text-decoration: none;  
+}
+
+.title-two{
+    padding-right: 1.5rem;
+    font-family: "Roboto Condensed", sans-serif;
+    color: black;
+  text-decoration: none;  
+}
+
+.title-three{
+    padding-right: 1.5rem;
+    font-family: "Roboto Condensed", sans-serif;
+    color: black;
+    text-decoration: none;  
+}
+.icon__1{
+    padding-right: 1.5rem;
+    font-family: "Roboto Condensed", sans-serif;    
+}
+/* projects */
+.super-projects{
+    /* border: 1px solid red; */
+    padding: 5rem 5rem;
+}
+
+.projects-title{
+    /* border: 1px solid orange; */
+    display: flex;
+}
+
+.projects-detail{
+    /* border: 1px solid hotpink; */
+    width: 50%;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+    padding-right: 15.5rem;
+}
+.empty-title{
+    /* border: 1px solid purple; */
+    width: 50%;
+}
+/* projects-name-01 */
+.super-name-01{
+    /* border: 1px solid red; */
+    /* display: flex; */
+    padding-top: 3rem;
+}
+
+.total-name-01{
+    /* border: 1px solid green; */
+    margin: 0 auto;
+    display: flex;
+}
+
+.left-name-01{
+    /* border: 1px solid purple; */
+    width: calc(50% - 7.2%);
+    padding-left: 10rem;
+}
+
+.title-name-01{
+    display: block;
+    font-size: 1.5rem;
+    font-family: "Roboto Condensed", sans-serif; 
+    padding-bottom: 1rem;   
+}
+
+.para-body{
+    line-height: 1.5rem;
+    font-family: "Roboto Condensed", sans-serif;  
+    font-weight: 300;
+}
+
+/* xử lý ảnh */
+.img-block__1{
+    /* border: 1px solid hotpink; */
+    width: calc(50% - 7.2%);
+    margin-left: 6rem;
+}
+
+/* PROJECTS NAME 02 */
+.super-name-02{
+    /* border: 1px solid red; */
+    /* display: flex; */
+    padding-top: 3rem;
+    margin-top: 5rem;
+}
+
+.total-name-02{
+    /* border: 1px solid green; */
+    margin: 0 auto;
+    display: flex;
+}
+
+.left-name-02{
+    /* border: 1px solid purple; */
+    width: calc(50% - 7.2%);
+    padding-left: 10rem;
+}
+
+.title-name-02{
+    display: block;
+    font-size: 1.5rem;
+    font-family: "Roboto Condensed", sans-serif; 
+    padding-bottom: 1rem;   
+}
+
+.para-body-02{
+    line-height: 1.5rem;
+    font-family: "Roboto Condensed", sans-serif;  
+    font-weight: 300;
+}
+
+/* xử lý ảnh */
+.img-block__2{
+    /* border: 1px solid hotpink; */
+    width: calc(50% - 7.2%);
+    margin-left: 6rem;
+}
+/* projects name 03 */
+.super-name-03{
+    /* border: 1px solid red; */
+    /* display: flex; */
+    padding-top: 3rem;
+    margin-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.total-name-03{
+    /* border: 1px solid green; */
+    margin: 0 auto;
+    display: flex;
+}
+
+.left-name-03{
+    /* border: 1px solid purple; */
+    width: calc(50% - 7.2%);
+    padding-left: 10rem;
+}
+
+.title-name-03{
+    display: block;
+    font-size: 1.5rem;
+    font-family: "Roboto Condensed", sans-serif; 
+    padding-bottom: 1rem;   
+}
+
+.para-body-03{
+    line-height: 1.5rem;
+    font-family: "Roboto Condensed", sans-serif;  
+    font-weight: 300;
+}
+
+/* xử lý ảnh */
+.img-block__3{
+    /* border: 1px solid hotpink; */
+    width: calc(50% - 7.2%);
+    margin-left: 6rem;
+}
+
+
+
+/*  */
+/* thông tin liên hệ */
+.infor-contact{
+    display: flex;
+    /* border: 1px solid orangered; */
+    justify-content: space-around;
+    padding: 1rem 1rem;
+   
+}
+
+
+
+.title-phone{
+    font-family: "Roboto Condensed", sans-serif;   
+}
+
+.body-phone{
+    font-family: "Roboto Condensed", sans-serif;
+    padding-top: 1rem;
+}
+
+.title-email{
+    font-family: "Roboto Condensed", sans-serif;   
+}
+
+.body-email{
+    font-family: "Roboto Condensed", sans-serif;
+    padding-top: 1rem;
+}
+
+.title-follow-me{
+    font-family: "Roboto Condensed", sans-serif;   
+}
+
+.body-follow-me{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    color: black;
+    padding-top: 1rem;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+.super-icon{
+    display: flex;
+}
+.icon-bird{
+    font-size: 3rem;
+    padding-left: 2rem;
+    padding-top: 1.4rem;
+}
+
+.body-link{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 100;
+}
+
+.link-wix{
+    color: black;
+    text-decoration: none;
+}
+
+.hr{
+    margin: 0 4rem;
+}
+/* chinhr js */
+body { 
+    opacity: 0;
+    transition: opacity .5s;
+ }
